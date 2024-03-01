@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f3f8;
+}
+
+.container{
+    width: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto;
+    padding: 0.5rem;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px #ded5d5;
+}
+
+.form{
+    width: 87%;
+    margin: 2rem;
+}
+
+
+.input-div{
+    display: flex;
+    width: 100%;
+    margin: 2rem 0 0.7rem 0 ;
+}
+.text-input{
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+    border-radius: 3px;
+    background-color:#f2f3f9 ;
+    border:none;
+    outline: none;
+
+}
+.btn{
+    padding: 0.3rem;
+    background-color:#5635f0 ;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0 4px 4px 0;
+    font-size: 1.2rem;
+}
+.err-msg{
+   text-align: left;
+   margin: 1rem 0.3rem;
+   color:#c7c1c1
+}
+.error{
+    color: red;
+}
+.success{
+    color: green;
+}
+
+.results{
+    display: flex;
+    flex-direction: column;
+}
+
+.result-text{
+    width: 600px;
+    background-color: white;
+    display: flex;
+    margin: 0.5rem auto;
+    padding: 1rem 3rem;
+    box-shadow: 2px 2px 2px 2px #ded5d5;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.result-text span i{
+    margin-left: 0.7rem;
+    cursor: pointer;
+}
+
+.result-input{
+    width: 70%;
+    position: absolute;
+    outline: none;
+    padding: 0.3rem 0;
+    font-size: 1rem;
+    display: none;
+
+}
