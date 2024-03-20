@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "06ee9be9-f3a0-4c87-a81d-f43e053d23f9",
+		"name": "02-store-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29978583"
+	},
+	"item": [
+		{
+			"name": "Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/products?limit=9&page=3",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"products"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "9"
+						},
+						{
+							"key": "page",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Static Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/products/static",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"products",
+						"static"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
